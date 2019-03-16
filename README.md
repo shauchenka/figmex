@@ -30,14 +30,16 @@ Options can be passed as CLI flags or included in a `figma-theme` object in your
 - `--format`, `-f`: include additional metadata from the Figma API, default './less'
 - `--metadata`: include additional metadata from the Figma API
 
+Based on Brent Jackson's [figma-theme](https://github.com/jxnblk/figma-theme)
+
 [Styles]: https://help.figma.com/properties-panel/styles
 [Styled System]: https://jxnblk.com/styled-system
 [token]: https://www.figma.com/developers/docs#auth-dev-token
 [figma-js]: https://github.com/jongold/figma-js
 [figma-api]: https://www.figma.com/developers
 [style-dictionary]: https://github.com/amzn/style-dictionary
-Based on idea
-[figma-theme]: https://github.com/jxnblk/figma-theme
+
+
 
 <!--
 - TRi6YSk76405ImoatoMF1u28
