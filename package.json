@@ -1,0 +1,33 @@
+{
+  "name": "figmex",
+  "version": "1.0.1",
+  "description": "Generate development-ready theme JSON and SCSS files from Figma Styles",
+  "main": "index.js",
+  "bin": {
+    "figmex": "./cli.js"
+  },
+  "scripts": {
+    "start": "./cli.js JGLoPfwRFqCwn4xZ8wUmSwp7 --out-dir example",
+    "cover": "nyc report --reporter html",
+    "test": "nyc ava"
+  },
+  "keywords": [],
+  "author": "Anton Shauchenka",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "chroma-js": "^1.3.7",
+    "dot-prop": "^4.2.0",
+    "dotenv": "^6.0.0",
+    "figma-js": "^1.4.0",
+    "meow": "^5.0.0",
+    "pkg-conf": "^2.1.0",
+    "style-dictionary": "^2.7.0",
+    "superstruct": "^0.5.4",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^12.0.2"
+  }
+}
