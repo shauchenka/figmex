@@ -5,7 +5,7 @@ Generate development-ready theme JSON / SCSSS/ LESS files from Figma Styles
 
 - Parse [Styles][] from a Figma file ID
 - Works with [Styled System][] and other CSS-in-JS setups
-- Works with [scss, less, etc][] and other CSS-in-JS setups
+- Generetes JSON, ans css compactible with different preprocessors (scss, less, etc.)
 - Built with [figma-api][]
 
 ```sh
@@ -34,6 +34,7 @@ Options can be passed as CLI flags or included in a `figma-theme` object in your
 [Styled System]: https://jxnblk.com/styled-system
 [token]: https://www.figma.com/developers/docs#auth-dev-token
 [figma-js]: https://github.com/jongold/figma-js
+[figma-api]: https://www.figma.com/developers
 [style-dictionary]: https://github.com/amzn/style-dictionary
 Based on idea
 [figma-theme]: https://github.com/jxnblk/figma-theme
