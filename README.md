@@ -1,7 +1,7 @@
 
 # figmex
 
-Generate development-ready theme JSON / SCSSS/ LESS files from Figma Styles
+Generate development-ready theme JSON / SCSS/ LESS files from Figma Styles
 
 - Parse [Styles][] from a Figma file ID
 - Works with [Styled System][] and other CSS-in-JS setups
