@@ -26,7 +26,7 @@ npm i figmex
 
 Options can be passed as CLI flags or included in a `figma-theme` object in your `package.json`
 
-- `--out-dir`, `-d`: output directory (default current working directory), default './'
+- `--out-dir`, `-d`: output directory (default current working directory), default './styles'
 - `--format`, `-f`: include additional metadata from the Figma API, default 'less'
 - `--metadata`: include additional metadata from the Figma API
 
