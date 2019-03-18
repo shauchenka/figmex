@@ -9,6 +9,30 @@ styles/
 scss/
 node-modules/
 .idea/
+*.sublime-*
+node_modules
+build/
+build-reports/
+ts-output/*
+.vscode/*
+.awcache/*
+.dist/*
+dist/
+tsout/
+*.zip
+
+# OSX
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.nyc_output/
+coverage/
+.DS_Store
+
 
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
