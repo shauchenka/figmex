@@ -22,6 +22,9 @@ npm i figmex
 4. Add an npm run script: `figmex <figma-file-id>` (see params for output)
 5. Run the script to create a `theme.json` and styles file based on Figma Styles
 
+Now `figmex` can export styles from files in strict format, for example please check: https://www.figma.com/file/Z4RWc6X1BN5UlM6myQtt1d/tokens-Copy?node-id=0%3A1 make sure that page and artboard names are the same.
+In further releases I will add support to export from figma project styles.
+
 ## Options
 
 Options can be passed as CLI flags or included in a `figma-theme` object in your `package.json`

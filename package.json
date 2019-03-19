@@ -1,18 +1,32 @@
 {
   "name": "figmex",
   "version": "1.0.2",
-  "description": "Generate development-ready theme JSON and SCSS files from Figma Styles",
+  "description": "Generate development-ready theme JSON/CSS from Figma styles and files",
   "main": "index.js",
   "bin": {
     "figmex": "./cli.js"
   },
+  "keywords": [
+    "figma",
+    "styles",
+    "design tokens",
+    "figma 2 css",
+    "figma 2 json",
+    "figma api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shauchenka/figmex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shauchenka/figmex/issues"
+  },
   "scripts": {
-    "start": "./cli.js JGLoPfwRFqCwn4xZ8wUmSwp7 --out-dir example",
+    "start": "./cli.js Z4RWc6X1BN5UlM6myQtt1d --d styles",
     "cover": "nyc report --reporter html",
     "test": "nyc ava"
   },
-  "keywords": [],
-  "author": "Anton Shauchenka",
+  "author": "Anton Shauchenka <ad.shevchenko@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
