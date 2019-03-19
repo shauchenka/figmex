@@ -1,6 +1,6 @@
 {
   "name": "figmex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate development-ready theme JSON/CSS from Figma styles and files",
   "main": "index.js",
   "bin": {
